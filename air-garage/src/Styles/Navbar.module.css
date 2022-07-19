@@ -1,0 +1,7 @@
+.navbar{
+    display: flex;
+    height:30%;
+    width: 100%;
+    justify-content:space-between;
+    
+}
