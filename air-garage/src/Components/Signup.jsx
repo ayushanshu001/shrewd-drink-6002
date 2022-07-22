@@ -40,26 +40,36 @@ const Signup = () => {
                 <img style={{height:"19rem", width:"30rem",paddingTop:"10rem"}} src="https://dashboard.airgarage.com/static/media/money_machine.b5d474b0.png"/>
             </div>
             <div>
-                <h2 style={{paddingTop:"5rem",paddingLeft:"24rem",fontOpticalSizing:"initial"}}>Sign up for AirGarage</h2>
+                <h2 style={{paddingTop:"5rem",paddingLeft:"19rem",fontOpticalSizing:"initial"}}>Sign up for AirGarage</h2>
                 <div style={{textAlign:"left",paddingLeft:"20rem",flexDirection:"column"}}>
                 <form onSubmit={handleSubmit}>
                 <label>First name</label>
                 <br/>
-                <input value={name} onChange={(e)=>setname(e.target.value)} type="text" />
                 <br/>
+                <input style={{height:"2.5rem",width:"23rem",border:"none",backgroundColor:"#F2F2F2"}} value={name} onChange={(e)=>setname(e.target.value)} type="text" />
+                <br/>
+                
                 <label>Last name</label>
                 <br/>
-                <input value={last} onChange={(e)=>setLast(e.target.value)} type="text" />
                 <br/>
+                <input style={{height:"2.5rem",width:"23rem",border:"none",backgroundColor:"#F2F2F2"}} value={last} onChange={(e)=>setLast(e.target.value)} type="text" />
+                <br/>
+                
                 <label>Email</label>
                 <br/>
-                <input value={email} onChange={(e)=>setEmail(e.target.value)} type="email" />
                 <br/>
+                <input style={{height:"2.5rem",width:"23rem",border:"none",backgroundColor:"#F2F2F2"}} value={email} onChange={(e)=>setEmail(e.target.value)} type="email" />
+                <br/>
+                
                 <label>Password</label>
                 <br/>
-                <input value={password} onChange={(e)=>setpassword(e.target.value)} type="password" />
                 <br/>
-                <input type="submit"/>
+                <input style={{height:"2.5rem",width:"23rem",border:"none",backgroundColor:"#F2F2F2"}} value={password} onChange={(e)=>setpassword(e.target.value)} type="password" />
+                <br/>
+                <br/>
+                <br/>
+                
+                <input style={{height:"3rem",width:"23rem",border:"none",backgroundColor:"#FFEECC",color:"#DD703F"}} type="submit"/>
 
                 
                 </form>
@@ -67,7 +77,7 @@ const Signup = () => {
             </div>
            
         </div>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }
