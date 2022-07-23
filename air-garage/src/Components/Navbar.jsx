@@ -12,7 +12,7 @@ const Navbar = () => {
      <div style={{display:"flex", gap:"2rem", paddingRight:"15rem", textDecoration:"none"}}>
      <Link style={{textDecoration:"none",color:"black"}} to="/parking"><h5>Find parking</h5></Link>
      <Link style={{textDecoration:"none",color:"black"}} to="/login"><h5>Log in</h5></Link>
-     <Link style={{textDecoration:"none",color:"black"}} to="/signup"><h5>Signup</h5></Link>
+     {/* <Link style={{textDecoration:"none",color:"black"}} to="/signup"><h5>Signup</h5></Link> */}
      <Link style={{textDecoration:"none",color:"black"}} to="/talk"><h5>Talk to Sales</h5></Link>
      </div>
     </div>
