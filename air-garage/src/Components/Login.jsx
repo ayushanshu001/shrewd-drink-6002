@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
     const [email,setEmail]=useState("")
@@ -38,7 +39,7 @@ return(
                 <img style={{height:"19rem", width:"30rem",paddingTop:"10rem"}} src="https://dashboard.airgarage.com/static/media/money_machine.b5d474b0.png"/>
             </div>
             <div>
-                <h2 style={{paddingTop:"5rem",paddingLeft:"19rem",fontOpticalSizing:"initial"}}>Log in to AirGarage</h2>
+                <h2 style={{paddingTop:"5rem",paddingLeft:"19rem",fontOpticalSizing:"initial"}}>Log in to AirGarage<br/>Or <Link style={{textDecoration:"none"}} to="/signup"><h4 style={{fontSize:"medium"}}>Signup</h4></Link> </h2>
                 <div style={{textAlign:"left",paddingLeft:"20rem",flexDirection:"column"}}>
                 <form onSubmit={handleLogin}>
                 
