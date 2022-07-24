@@ -16,7 +16,13 @@ const Parking = () => {
         <div>
             <h2>TYPE</h2>
             <div style={{display:"flex",gap:"2.5rem"}}>
-            <input type="date" style={{width:"10rem",height:"1.8rem"}}/>
+            <select style={{width:"10rem",height:"1.8rem"}}>
+            <option>Hourly</option>
+            <option>Monthly</option>
+            <option>Airport</option>
+            </select>
+            
+            
             <button style={{width:"10rem",height:"2rem",background:"#FFEECC",color:"#DD703F",border:"none",outline:"none"}}>SEARCH</button>
             </div>
         </div>

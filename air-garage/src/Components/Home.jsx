@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from './Footer'
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
     <div>
         <h3 style={{fontWeight:"normal"}}>AirGarage modernizes parking assets with one streamlined service covering enforcement, payment collection,</h3>
         <h3 style={{fontWeight:"normal"}}>maintenance and more.</h3>
-        <button style={{height:"3rem", width:"9rem", color:"#FA824C", backgroundColor:"#FFEECC",border:"none"}}>TALK TO SALES</button>
+        <Link style={{height:"3rem", width:"9rem", color:"#FA824C", backgroundColor:"#FFEECC",border:"none",textDecoration:"none"}} to="/talk"><h3>Talk to sales</h3></Link>
     </div>
     <div style={{display:"flex", paddingLeft:"20rem", marginTop:"7rem",gap:"5rem"}}>
         <img  style={{height:"18rem", width:"28rem",paddingTop:"2rem",borderBottomLeftRadius:"0.5rem",borderBottomRightRadius:"0.5rem"}} src="https://assets.website-files.com/5d55f1425cb6b7a18aa77528/60a6d928e7187f18da1ab8c1_color-garage-p-500.png"/>
